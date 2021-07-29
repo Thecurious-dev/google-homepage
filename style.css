@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    margin-bottom: 8em;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.navbar li{
+    margin-right: 10px;
+    margin-top: 20px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+.navbar li:hover {
+    text-decoration: underline;
+  }
+.btn{
+    background: rgb(43,125,233);
+    padding:10px 20px;
+    border-radius: 5px;
+    color: cornsilk;
+     border: none;
+}
+
+
+.nav-item a{
+    text-decoration: none;
+    color: #000;
+   
+}
+
+.section-1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.textarea{
+    border: 1px solid #000;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    height: 40px;
+    position: relative;
+}
+
+.textarea:hover, .textarea:focus {
+    border: 1.5px solid #009688;
+    background-color: white;
+  }
+
+
+.searchInp{
+    height: 30px;
+   min-width: 90%;
+   position: absolute;
+   left: 25px;
+   top: 5px;
+   border: none;
+   cursor: pointer;
+   outline: none;
+}
+
+.searchIcon{
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    max-height: 60%;
+    
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-btn{
+    
+   padding: 10px 30px;
+   border: 1px solid transparent;
+   background: none;
+}
+.search-btn:hover{
+    background:rgb(248,249,250);
+    color: #3c4043;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.lang-links > ul{
+    display: flex;
+    margin-left:10px ;
+}
+
+.lang-links >ul>li{
+   list-style-type: none;
+   margin-right: 10px;
+   
+}
+
+.lang-links >ul>li>a{
+    text-decoration: none;
+}
+
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(242,242,242);
+    margin-top: 150px;
+    color: #fff;
+   padding: 40px 0;
+   text-align: center;
+   
+}
+
+.f-links>ul{
+    display: flex;
+    
+}
+
+.f-links>ul>li{
+    margin-right: 10px;
+    list-style: none;
+    
+}
+
+.f-links>ul>li>a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-locate>a{
+    text-decoration: none;
+    color: #000;
+}
+
+.terms>ul{
+    display: flex;
+    
+}
+
+.terms>ul>li{
+    margin-right: 10px;
+    list-style: none;
+}
+
+.terms>ul>li>a{
+    text-decoration: none;
+    color: #000;
+}
